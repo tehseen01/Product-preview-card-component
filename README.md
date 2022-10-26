@@ -5,21 +5,12 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-- [Author](#author)
+  - [Author](#author)
 
 ## Overview
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
 
 ### Screenshot
 
@@ -29,8 +20,6 @@ Users should be able to:
 
 - Solution URL: [Solution URL here](https://github.com/tehseen01/Product-preview-card-component.git)
 - Live Site URL: [Live site URL here](https://tehseen-product-preview-card-componen.netlify.app/)
-
-## My process
 
 ### Built with
 
