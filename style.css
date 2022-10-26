@@ -17,27 +17,26 @@ main {
 .product-card {
     background-color: hsl(0, 0%, 100%);
     display: flex;
-    max-width: 39rem;
+    max-width: 38rem;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.desktop-img {
-    width: 19rem;
-    margin-left: auto;
+picture {
+    height: 456px;
 }
 
 .mobile-img {
-    display: none;
+    width: 19rem;
 }
 
 .card-info {
-    margin: 2rem;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
 }
 
-.card-subtitle {
+.card-title {
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: 8px;
@@ -45,11 +44,12 @@ main {
     font-family: 'Montserrat', sans-serif;
     color: hsl(228, 12%, 48%);
 }
-.card-info .card-title {
+.card-info .card-subtitle {
     font-size: 2.50rem;
     display: inline-block;
     font-family: 'Fraunces', sans-serif;
     line-height: 100%;
+    font-weight: 700;
     margin-bottom: 1.50rem;
 }
 
@@ -94,19 +94,17 @@ button:hover {
 }
 
 @media (max-width: 640px) {
-    .desktop-img {
-        display: none;
+    picture {
+        height: auto;
     }
-
     .product-card {
         flex-direction: column;
         max-width: 22rem;
     }
     .mobile-img {
-        display: block;
         width: 22rem;
     }
-    .card-info .card-title {
+    .card-info .card-subtitle {
         font-size: 2.2rem;
     }
     .card-info .card-description {
